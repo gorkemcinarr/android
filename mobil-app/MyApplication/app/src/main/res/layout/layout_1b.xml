@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Ana Menü"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:padding="50dp"
+
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+
+           android:background="#0000ff"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:padding="50dp"
+           android:text="Profil"
+           android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="50dp"
+            android:text="Ayarlar"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f0ff00"
+            android:text="Galeri"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="50dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ff00ff"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="50dp"
+            android:text="Müzik"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+
+       <TextView
+           android:background="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:text="Uygulama"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:padding="50dp"
+           android:textColor="#000000"
+
+
+           />
+
+</LinearLayout>

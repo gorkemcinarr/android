@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/ımg"
+        android:layout_width="240dp"
+        android:layout_height="135dp"
+        android:src="@drawable/baskent" />
+
+    <TextView
+        android:id="@+id/trtex1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ımg"
+        android:layout_marginStart="32dp"
+        android:text="BAŞKENT"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ımg"
+        android:layout_alignStart="@+id/trtex1"
+        android:text="Baglica"
+        android:layout_marginTop="500dp"
+        android:textSize="12sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ımg"
+        android:layout_alignTop="@+id/tv2"
+        android:layout_alignParentStart="true"
+        android:text="eskişehir yolu"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/solUst"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="SOL ÜST"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/sagaHizali"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/solUst"
+        android:layout_alignEnd="@id/solUst"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#00ff00"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Sağa Hizalı"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/usteHizali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/sagaHizali"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/sagaHizali"
+        android:background="#0000ff"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Üste Hizalı "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/solaHizali"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/usteHizali"
+        android:layout_alignStart="@id/usteHizali"
+        android:layout_marginTop="16dp"
+        android:background="#00ffff"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Sola Hizalı"
+        android:textColor="#ffffff" />
+    <TextView
+        android:id="@+id/altaHizali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/solaHizali"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/solaHizali"
+        android:background="#0000ff"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Alta Hizalı"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/sagaHizalii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/altaHizali"
+        android:layout_alignEnd="@id/altaHizali"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#ff0f"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Sağa Hizali Textviev"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

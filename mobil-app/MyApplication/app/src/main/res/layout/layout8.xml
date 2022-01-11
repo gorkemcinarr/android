@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/midTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#00f"
+            android:padding="16dp"
+            android:text="TAM ORTA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/midTextView"
+            android:layout_toStartOf="@+id/midTextView"
+            android:background="#00f"
+            android:padding="16dp"
+            android:text="SOL ÜST" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/midTextView"
+            android:layout_toEndOf="@+id/midTextView"
+            android:background="#00f"
+            android:padding="16dp"
+            android:text="SAĞ ÜST" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/midTextView"
+            android:layout_toStartOf="@+id/midTextView"
+            android:background="#00f"
+            android:padding="16dp"
+            android:text="SOL ALT" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/midTextView"
+            android:layout_toEndOf="@+id/midTextView"
+            android:background="#00f"
+            android:padding="16dp"
+            android:text="SAĞ ALT" />
+
+    </RelativeLayout>
+</RelativeLayout>
